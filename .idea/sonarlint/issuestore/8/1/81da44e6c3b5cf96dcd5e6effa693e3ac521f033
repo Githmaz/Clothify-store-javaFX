@@ -1,0 +1,7 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ª¯Õ¹øÿÿÿÿ
+r	java:S116"VRename this field "customer_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾ÍÞÀ8Äï°¸³1
+y	java:S116"XRename this field "customer_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤ë¿™ûÿÿÿÿ8¿—ô¼³1
+w	java:S116"VRename this field "customer_PN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ô›ú™ÿÿÿÿÿ8Äï°¸³1
+u	java:S116"YRename this field "Customer_Email" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡ãïö8Äï°¸³1
+{	java:S116"_Rename this field "register_DateandTime" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿•±°8Äï°¸³1

@@ -1,0 +1,25 @@
+.loginPane{
+    -fx-background-color:  rgba(144, 137, 137, 0.9);
+}
+.selected{
+    -fx-text-fill: #d4b27e; /* Use -fx-text-fill for text color */
+    -fx-text-alignment: left; /* Use -fx-text-alignment for text alignment */
+    -fx-font-weight: 900;
+    -fx-font-size: 50px;
+    -fx-font-family: "Lato", sans-serif;
+    -fx-border-color: transparent transparent #d4b27e transparent; /* Gold bar under the text */
+    -fx-border-width: 0 0 4 0;
+}
+.notSelected{
+    -fx-text-fill: rgba(0, 0, 0, 0.5);
+    -fx-font-family: "Lato", sans-serif;
+}
+.input-field {
+    -fx-background-color: transparent;
+    -fx-text-fill: black; /* Adjust the text color as needed */
+    -fx-font-size: 16px; /* Adjust the font size as needed */
+}
+
+.btn-submit{
+    -fx-background-color: #d4b27e;
+}

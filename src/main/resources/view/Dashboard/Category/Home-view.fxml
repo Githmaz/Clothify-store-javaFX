@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" styleClass="background-pane" stylesheets="@../../../css/Dashboard/DashBoard.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.dashboard.category.HomeViewController">
+   <children>
+      <Pane layoutX="50.0" layoutY="25.0" prefHeight="275.0" prefWidth="800.0" style="-fx-background-color: CDCDCD;">
+         <children>
+            <ImageView fitHeight="120.0" fitWidth="780.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../img/Cover.jpeg" />
+               </image></ImageView>
+            <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="360.0" layoutY="66.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../Student_Registration/Backend20/src/main/java/edu/icet/resource/default-profile.jpeg" />
+               </image></ImageView>
+            <Text layoutX="367.0" layoutY="176.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Githmaz">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Text>
+            <Text layoutX="343.0" layoutY="193.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Githma Senevirathne" />
+            <Text layoutX="261.0" layoutY="249.0" opacity="0.39" strokeType="OUTSIDE" strokeWidth="0.0" text="Oder">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="265.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="16">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+            <Text layoutX="384.0" layoutY="249.0" opacity="0.39" strokeType="OUTSIDE" strokeWidth="0.0" text="Oder">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="369.0" layoutY="229.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3Years">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="485.0" layoutY="229.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Admin">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="487.0" layoutY="249.0" opacity="0.39" strokeType="OUTSIDE" strokeWidth="0.0" text="Position">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+         </children></Pane>
+      <TableView layoutX="400.0" layoutY="325.0" prefHeight="250.0" prefWidth="400.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Oder ID" />
+          <TableColumn prefWidth="100.0" text="Customer Name" />
+            <TableColumn prefWidth="50.0" text="Time" />
+            <TableColumn prefWidth="100.0" text="Date" />
+            <TableColumn prefWidth="75.0" text="Total" />
+        </columns>
+      </TableView>
+      <Pane layoutX="110.0" layoutY="335.0" prefHeight="250.0" prefWidth="200.0" style="-fx-background-color: blue;" />
+   </children>
+</AnchorPane>

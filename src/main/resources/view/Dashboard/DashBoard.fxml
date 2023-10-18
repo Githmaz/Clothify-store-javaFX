@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" styleClass="background-pane" stylesheets="@../../css/Home.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.dashboard.DashBoardViewController">
+   <children>
+      <AnchorPane layoutX="15.0" layoutY="65.0">
+         <children>
+            <JFXButton layoutY="80.0" onMouseClicked="#loadOderView" prefHeight="70.0" prefWidth="250.0" style="-fx-background-radius: 20;" styleClass="notSelected-btn" stylesheets="@../../css/Home.css" text="Oder" textFill="WHITE">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutY="165.0" onMouseClicked="#LoadItemView" prefHeight="70.0" prefWidth="250.0" style="-fx-background-radius: 20;" styleClass="notSelected-btn" stylesheets="@../../css/Home.css" text="Items" textFill="WHITE">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutY="250.0" onMouseClicked="#showCustomerView" prefHeight="70.0" prefWidth="250.0" style="-fx-background-radius: 20;" styleClass="notSelected-btn" stylesheets="@../../css/Home.css" text="Customer" textFill="WHITE">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutY="330.0" onMouseClicked="#loadSupplierPage" prefHeight="70.0" prefWidth="250.0" style="-fx-background-radius: 20;" styleClass="notSelected-btn" stylesheets="@../../css/Home.css" text="Supplier" textFill="WHITE">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutX="1.0" layoutY="415.0" prefHeight="70.0" prefWidth="250.0" style="-fx-background-radius: 20;" styleClass="notSelected-btn" stylesheets="@../../css/Home.css" text="Report" textFill="WHITE">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutY="500.0" onMouseClicked="#logout" prefHeight="70.0" prefWidth="250.0" style="-fx-background-radius: 20;" styleClass="logout-btn" stylesheets="@../../css/Home.css" text="Log out" textFill="WHITE">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </JFXButton>
+            <JFXButton onMouseClicked="#loadHomePage" prefHeight="70.0" prefWidth="250.0" style="-fx-background-radius: 20;" styleClass="selected-btn" stylesheets="@../../css/Home.css" text="Home" textFill="WHITE">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="DashBoard_innerChild" layoutX="280.0" layoutY="50.0" onMouseClicked="#loadSupplierPage" prefHeight="600.0" prefWidth="900.0" />
+   </children>
+</Pane>

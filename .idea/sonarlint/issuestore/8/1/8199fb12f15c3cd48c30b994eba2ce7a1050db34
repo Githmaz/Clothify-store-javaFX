@@ -1,0 +1,6 @@
+
+g	java:S112 "FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ãÍÇ¸³1
+€	java:S116"_Rename this field "DashBoard_innerChild" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ¥ƒ»üÿÿÿÿ8ðÍÇ¸³1
+o	java:S1000"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢ÇÕðùÿÿÿÿ8òÍÇ¸³1
+S
+java:S1172A"1Remove this unused method parameter "mouseEvent".(¿ªñ•ùÿÿÿÿ8öÍÇ¸³1

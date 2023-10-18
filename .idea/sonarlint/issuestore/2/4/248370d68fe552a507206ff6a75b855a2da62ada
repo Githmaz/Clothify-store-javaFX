@@ -1,0 +1,9 @@
+
+p	java:S116"TRename this field "btn_LogIN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä„†¯8ß—›¶³1
+y	java:S116"]Rename this field "btn_forgetPassword" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿£¦‰8ß—›¶³1
+s	java:S116"WRename this field "txt_password" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½‡ì8ß—›¶³1
+s	java:S116"WRename this field "txt_username" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãäŠ8ß—›¶³1
+q	java:S116!"URename this field "Background" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ô«²¬8ß—›¶³1
+j	java:S100&"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§Ñøí8à—›¶³1
+U
+java:S1128"3Remove this unused import 'javafx.fxml.FXMLLoader'.(À‡ô³úÿÿÿÿ8ØÊÑ¸³1

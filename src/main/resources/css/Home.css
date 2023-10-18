@@ -1,0 +1,21 @@
+
+.selected-btn{
+    -fx-background-color: #d4b27e; /* Use -fx-text-fill for text color */
+    -fx-text-alignment: left; /* Use -fx-text-alignment for text alignment */
+    -fx-font-weight: 900;
+    -fx-font-family: "Lato", sans-serif;
+}
+.notSelected-btn{
+     -fx-background-color :#231F20;
+    -fx-font-weight: 900;
+    -fx-font-family: "Lato", sans-serif;
+}
+.logout-btn{
+     -fx-background-color : #908e8a;
+    -fx-font-weight: 900;
+    -fx-font-family: "Lato", sans-serif;
+}
+.background-pane{
+    -fx-background-color: rgba(0, 0, 0,0);
+
+}

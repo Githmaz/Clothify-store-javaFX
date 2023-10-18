@@ -1,0 +1,7 @@
+
+.background-pane{
+    -fx-background-color: rgba(	49, 46, 46,0.8);
+}
+.inputFill{
+-fx-text-fill: white;
+}
